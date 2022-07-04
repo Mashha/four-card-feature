@@ -83,9 +83,10 @@ p {
   padding: 25px;
 }
 
-.card h3 {
+.card h2 {
   color: var(--neutral-dark-blue);
   margin: 0 0 5px 0;
+  font-size: 20px;
 }
 
 .card p {
@@ -95,7 +96,7 @@ p {
   padding-bottom: 30px;
 }
 
-.card h3,
+.card h2,
 p {
   text-align: left;
 }
