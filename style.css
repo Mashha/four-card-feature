@@ -128,7 +128,25 @@ p {
   font-size: 12px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1188px) {
+  .top {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .top {
+    width: 100%;
+  }
+
+  .center-cards {
+    width: 60%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
   .top {
     width: 100%;
   }
@@ -141,6 +159,7 @@ p {
     font-size: 14px;
   }
   .center-cards {
+    width: 100%;
     grid-template-columns: 1fr;
   }
 }
